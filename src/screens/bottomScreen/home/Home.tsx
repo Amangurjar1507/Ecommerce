@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <CustomStatusbar
-        backgroundColor={color.transparent}
+        // backgroundColor={color.transparent}
         barStyle="light-content"
       />
       <MenuHeader />

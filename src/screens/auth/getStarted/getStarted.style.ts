@@ -7,12 +7,13 @@ const height_logo = height * 0.28;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: color.background,
-  },
+   },
   header: {
-    flex: 2,
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: color.background,
+
   },
   footer: {
     flex: 1,

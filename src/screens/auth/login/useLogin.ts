@@ -55,8 +55,7 @@ const useLogin = () => {
       .signInWithEmailAndPassword(data.userEmail, data.password)
       .then(() => {
         setLoading(false);
-        setData(null);
-        Snackbar.show({
+         Snackbar.show({
           text: 'You are logged in successfully',
           duration: Snackbar.LENGTH_SHORT,
           backgroundColor: color.green,
