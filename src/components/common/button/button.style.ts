@@ -1,21 +1,18 @@
-  import {StyleSheet} from 'react-native';
-  
-  const styles = StyleSheet.create({
-    container: {
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-    touchableStyle: {
-      height: 50,
-      borderRadius: 10,
-      justifyContent: 'center',
-      backgroundColor:"hsla(234, 46%, 56%, 1)",
-    },
-    buttonText: {
-      textAlign: 'center',
-      fontSize: 16,
-      color: "white",
-    },
-  });
+import colors from '../../../theme/color';
+import {StyleSheet} from 'react-native';
 
-  export default styles;
+const style = StyleSheet.create({
+  button: {
+    width: '100%',
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+     
+  },
+  text: {
+    fontSize: 16,
+    fontWeight: '500',
+  },
+});
+export default style;

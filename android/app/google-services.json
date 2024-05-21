@@ -1,14 +1,13 @@
 {
   "project_info": {
-    "project_number": "962237953454",
-    "firebase_url": "https://myapp-f6635-default-rtdb.firebaseio.com",
-    "project_id": "myapp-f6635",
-    "storage_bucket": "myapp-f6635.appspot.com"
+    "project_number": "801857872088",
+    "project_id": "myapp-af52a",
+    "storage_bucket": "myapp-af52a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:962237953454:android:e415bf2014a475faecc43f",
+        "mobilesdk_app_id": "1:801857872088:android:3a30ab4c063c8288efb7ad",
         "android_client_info": {
           "package_name": "com.myapp"
         }
@@ -16,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAB-7SMmAHrNieYV2BWGFL7um-fJKiynDU"
+          "current_key": "AIzaSyBzMz_QHO9WgiZ5TqTJrsLdGcHxX027ldc"
         }
       ],
       "services": {
