@@ -47,11 +47,7 @@ const MenuHeader: React.FC<menuHeaderProps> = props => {
           </TouchableOpacity>
           <Text style={styles.nameStyle}>Different Kind Food</Text>
           <View
-            style={{
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginHorizontal: 5,
-            }}>
+            style={styles.asa}>
             <TouchableOpacity onPress={() => navigation.navigate('AddBag')}>
               <Image
                 resizeMode="contain"

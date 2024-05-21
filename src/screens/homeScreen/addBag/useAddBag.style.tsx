@@ -14,12 +14,11 @@ const style = StyleSheet.create({
   card: {
     height: 180,
     width: '96%',
-    backgroundColor: 'white',
+    backgroundColor: color.white,
     padding: 10,
     margin: 7,
     flexDirection: 'row',
   },
-
   press: {
     fontSize: 15,
     lineHeight: 25,

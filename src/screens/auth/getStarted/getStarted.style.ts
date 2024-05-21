@@ -3,7 +3,6 @@ import color from '../../../theme/color';
 
 const {height} = Dimensions.get('screen');
 const height_logo = height * 0.28;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -13,7 +12,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: color.background,
-
   },
   footer: {
     flex: 1,

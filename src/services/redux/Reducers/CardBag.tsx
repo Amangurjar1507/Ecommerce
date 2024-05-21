@@ -3,16 +3,12 @@ const initialState = {
   Card: [],
 };
 const CardBag = (state = initialState, action) => {
-  // console.log(
-  //   'sbag Card data remove card --->',
-  //   JSON.stringify(action.payload),
-  // );
+ 
   switch (action.type) {
     case types.CARD_ITEM:
       let temp = state.Card;
       temp.push(action.payload);
-      // let myIndex = -1;
-      return {
+       return {
         ...state,
         Card: temp,
       };

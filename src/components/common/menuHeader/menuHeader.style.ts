@@ -52,6 +52,11 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '500',
    },
+   asa:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 5,
+  }
 });
 
 export default styles;

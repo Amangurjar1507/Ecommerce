@@ -31,14 +31,10 @@ const InputContainer: FC<any> = ({
       {secureTextEntry && (
         <TouchableOpacity
           onPress={togglePasswordVisibility}
-          style={{
-            marginLeft: 10,
-            alignItems: 'flex-end', // Align button to end horizontally
-            justifyContent: 'center',
-          }}>
+          style={styles.hideView}>
           <Image
             tintColor={color.white}
-            style={{height: 20, width: 22}}
+            style={styles.eyes}
             source={isPasswordVisible ? imageIndex.eyes : imageIndex.hide}
           />
         </TouchableOpacity>

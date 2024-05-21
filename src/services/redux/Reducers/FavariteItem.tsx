@@ -5,8 +5,7 @@ const initialState = {
   favorite: false,
 };
 const favoriteReducer = (state = initialState, action) => {
-  // console.log('reducer favoriteReducer --->', action.payload);
-  switch (action.type) {
+   switch (action.type) {
     case types.FAVORITE_ITEM:
       let temp = state.favoriteItems;
       temp.push(action.payload);

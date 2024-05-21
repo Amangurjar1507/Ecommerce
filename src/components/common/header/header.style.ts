@@ -45,4 +45,5 @@ export const styles = StyleSheet.create({
     lineHeight: 16.34,
     color: color.primaryText,
   },
+  back:{height: 18, width: 18}
 });

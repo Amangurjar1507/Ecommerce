@@ -55,7 +55,7 @@ const Header: FC<HeaderProps> = ({
           onPress={handleBackNavigation}
           style={styles.lableView}>
           {backIconsShown && (
-            <Image source={imageIndex.back} style={{height: 18, width: 18}} />
+            <Image source={imageIndex.back} style={styles.back} />
           )}
           {lable && (
             <Text

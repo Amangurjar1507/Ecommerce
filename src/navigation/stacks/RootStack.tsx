@@ -3,8 +3,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Login from '../../screens/auth/login/Login';
 import SignUp from '../../screens/auth/signUp/SignUp';
 import GetStarted from '../../screens/auth/getStarted/GetStarted';
-import Home from '../../screens/bottomScreen/home/Home';
-import AddBag from '../../screens/bottomScreen/addBag/AddBag';
+import Home from '../../screens/homeScreen/home/Home';
+import AddBag from '../../screens/homeScreen/addBag/AddBag';
 import auth from '@react-native-firebase/auth';
 
 export type RootStackParams = {
